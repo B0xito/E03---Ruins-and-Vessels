@@ -11,6 +11,6 @@ public class PlayerInteractions : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal") * rotSpeed * Time.deltaTime;
         float v = Input.GetAxisRaw("Vertical") * speed * Time.deltaTime;
         transform.Translate(0, 0, v);
-        transform.Rotate(0, h, 0);
+        transform.Rotate(h, 0, 0);
     }
 }
