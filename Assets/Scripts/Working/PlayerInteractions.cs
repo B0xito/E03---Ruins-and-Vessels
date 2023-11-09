@@ -35,9 +35,34 @@ public class PlayerInteractions : MonoBehaviour
     [Header("Pieces Variables")]
     [SerializeField] List<PieceData> pieces = new List<PieceData>();
 
+    //Incolor pieces
+    [SerializeField] int incolorCount;
+    [SerializeField] TMP_Text incolorText;
+
     //Red pieces
     [SerializeField] int redCount;
     [SerializeField] TMP_Text redCountText;
+
+    //Blue pieces
+    [SerializeField] int blueCount;
+    [SerializeField] TMP_Text blueCountText;
+
+    //Green pieces
+    [SerializeField] int greenCount;
+    [SerializeField] TMP_Text greenCountText;
+
+    //Purple pieces
+    [SerializeField] int purpleCount;
+    [SerializeField] TMP_Text purpleCountText;
+
+    //Silver pieces
+    [SerializeField] int silverCount;
+    [SerializeField] TMP_Text silverCountText;
+
+    //Gold pieces
+    [SerializeField] int goldenCount;
+    [SerializeField] TMP_Text goldenCountText;
+
     #endregion
 
     #region Transport
@@ -161,7 +186,10 @@ public class PlayerInteractions : MonoBehaviour
     #region PIECES LIST
     public void AddPiece(PieceData fragment)
     {
-        if (fragment.CompareTag("RedPiece"))
+        if (fragment.CompareTag("IncolorPiece") || fragment.CompareTag("RedPiece") || 
+            fragment.CompareTag("BluePiece") || fragment.CompareTag("GreenPiece") ||
+            fragment.CompareTag("PurplePiece") || fragment.CompareTag("SilverPiece") ||
+            fragment.CompareTag("GoldenPiece"))
         {
             pieces.Add(fragment);
         }
@@ -209,7 +237,10 @@ public class PlayerInteractions : MonoBehaviour
     #region TRIGGER
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("RedPiece") && other.CompareTag("GreenPiece") || other.CompareTag("PurplePiece") || other.CompareTag("BluePiece") || other.CompareTag("SilverPiece") || other.CompareTag("GoldenPiece") || other.CompareTag("IncolorPiece") && other.gameObject.GetComponent<PieceData>()) //si se quiere anadir piezas de otro colores usar " || other.CompareTag("PieceColor")" en Piece Color introduce el tag que creaste con Piece+Color 
+        if (other.CompareTag("IncolorPiece") || other.CompareTag("RedPiece") ||
+            other.CompareTag("GreenPiece") || other.CompareTag("BluePiece") || 
+            other.CompareTag("PurplePiece") || other.CompareTag("SilverPiece") || 
+            other.CompareTag("GoldenPiece") && other.gameObject.GetComponent<PieceData>())  
         {
             AddPiece(other.GetComponent<PieceData>());
             redCount++;

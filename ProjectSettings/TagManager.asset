@@ -7,11 +7,11 @@ TagManager:
   - Ground
   - Minable
   - Transport
-  - RedPiece
-  - BluePiefce
-  - GeenPiece
-  - PurplePiece
   - IncolorPiece
+  - RedPiece
+  - BluePiece
+  - GreenPiece
+  - PurplePiece
   - SilverPiece
   - GoldenPiece
   layers:
