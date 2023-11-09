@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Volver : MonoBehaviour
 {
-    public void Mapa1()
+    public void Vovler()
     {
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene(0);
     }
 
 }

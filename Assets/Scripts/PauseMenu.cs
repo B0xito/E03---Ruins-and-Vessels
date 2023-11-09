@@ -23,15 +23,15 @@ public class MenuPausa : MonoBehaviour
         if (menuOn == true)
         {
             pantallaPausa.SetActive(true);
-        //    Cursor.lockState = CursorLockMode.None;
-        //   Cursor.visible = true;
+            Cursor.lockState = CursorLockMode.None;
+           Cursor.visible = true;
      //      audioSource.PlayOneShot(Abrir);
         }
         else
         {
             pantallaPausa.SetActive(false);
-          //  Cursor.lockState = CursorLockMode.Locked;
-          //  Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
        //     audioSource.PlayOneShot(Cerrar);
         }
 
@@ -39,19 +39,18 @@ public class MenuPausa : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            pantallaLost.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-            //      audioSource.PlayOneShot(Abrir);
+                pantallaLost.SetActive(true);
+                //Cursor.lockState = CursorLockMode.None;
+                //Cursor.visible = true;
+                //      audioSource.PlayOneShot(Abrir);
         }
-        else (Input.GetKeyUp(KeyCode.Tab))
+        if (Input.GetKeyUp(KeyCode.Tab))
         {
             pantallaLost.SetActive(false);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            //Cursor.lockState = CursorLockMode.Locked;
+            //Cursor.visible = false;
             //     audioSource.PlayOneShot(Cerrar);
         }
-
 
 
     }
