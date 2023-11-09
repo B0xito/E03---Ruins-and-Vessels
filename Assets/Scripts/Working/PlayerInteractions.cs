@@ -34,6 +34,8 @@ public class PlayerInteractions : MonoBehaviour
     #region Pieces
     [Header("Pieces Variables")]
     [SerializeField] List<PieceData> pieces = new List<PieceData>();
+    public bool addingPiece = false;
+    private Coroutine adding;
 
     //Incolor pieces
     [SerializeField] int incolorCount;
@@ -138,7 +140,7 @@ public class PlayerInteractions : MonoBehaviour
                 if (stamina < 0) stamina = 0;
                 StaminaBar.fillAmount = stamina/maxStamina;
 
-                if(recharge != null) StopCoroutine(recharge);
+                if (recharge != null) StopCoroutine(recharge);
                 recharge = StartCoroutine(RechargeStamina());
                 #endregion
             }
@@ -183,15 +185,25 @@ public class PlayerInteractions : MonoBehaviour
         }
     }
 
+    private IEnumerator AddingPieceTimer()
+    {
+        yield return new WaitForSeconds(1.7f);
+
+        addingPiece = false;
+    }
+
     #region PIECES LIST
     public void AddPiece(PieceData fragment)
     {
-        if (fragment.CompareTag("IncolorPiece") || fragment.CompareTag("RedPiece") || 
+        if (fragment.CompareTag("IncolorPiece") || fragment.CompareTag("RedPiece") ||
             fragment.CompareTag("BluePiece") || fragment.CompareTag("GreenPiece") ||
             fragment.CompareTag("PurplePiece") || fragment.CompareTag("SilverPiece") ||
             fragment.CompareTag("GoldenPiece"))
         {
             pieces.Add(fragment);
+            addingPiece = true;
+            if (adding != null) StopCoroutine(adding);
+            adding = StartCoroutine(AddingPieceTimer());
         }
     }
 
@@ -237,16 +249,18 @@ public class PlayerInteractions : MonoBehaviour
     #region TRIGGER
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("IncolorPiece") || other.CompareTag("RedPiece") ||
-            other.CompareTag("GreenPiece") || other.CompareTag("BluePiece") || 
-            other.CompareTag("PurplePiece") || other.CompareTag("SilverPiece") || 
-            other.CompareTag("GoldenPiece") && other.gameObject.GetComponent<PieceData>())  
+        if (other.gameObject.GetComponent<PieceData>())  
         {
             AddPiece(other.GetComponent<PieceData>());
-            redCount++;
-            redCountText.text = redCount.ToString();
-            other.gameObject.SetActive(false);
-
+            #region PIECE COUNTER
+            if (other.CompareTag("IncolorPiece")) { incolorCount++; incolorText.text = incolorCount.ToString(); Destroy(other.gameObject); }
+            if (other.CompareTag("RedPiece")) { redCount++; redCountText.text = redCount.ToString(); Destroy(other.gameObject); }
+            if (other.CompareTag("BluePiece")) { blueCount++; blueCountText.text = blueCount.ToString(); Destroy(other.gameObject); }
+            if (other.CompareTag("GreenPiece")) {  greenCount++; greenCountText.text = greenCount.ToString(); Destroy(other.gameObject); }            
+            if (other.CompareTag("PurplePiece")) { purpleCount++; purpleCountText.text = purpleCount.ToString(); Destroy(other.gameObject); }
+            if (other.CompareTag("SilverPiece")) { silverCount++; silverCountText.text = silverCount.ToString(); Destroy(other.gameObject); }
+            if (other.CompareTag("GoldenPiece")) { goldenCount++; goldenCountText.text = goldenCount.ToString(); Destroy (other.gameObject); }
+            #endregion
         }
 
         if (other.GetComponent<Consumable>())
