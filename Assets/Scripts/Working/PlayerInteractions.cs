@@ -34,6 +34,8 @@ public class PlayerInteractions : MonoBehaviour
     #region Pieces
     [Header("Pieces Variables")]
     [SerializeField] List<PieceData> pieces = new List<PieceData>();
+
+    //Red pieces
     [SerializeField] int redCount;
     [SerializeField] TMP_Text redCountText;
     #endregion
@@ -50,9 +52,13 @@ public class PlayerInteractions : MonoBehaviour
     [Header("Money and Consumables Variables")]
     [SerializeField] public float money = 100;
     [SerializeField] List<Consumable> consumables = new List<Consumable>();
+    Consumable currentItem;
+    [SerializeField] int itemAmount;
+    [SerializeField] TMP_Text itemAmountText;
     [SerializeField] GameObject notMoney;
     [SerializeField] Image itemUI;
     [SerializeField] Sprite notItemSprite;
+
     #endregion
 
     private void Start()
@@ -69,17 +75,13 @@ public class PlayerInteractions : MonoBehaviour
     {
         Interactions();
 
-        //if (Input.GetKeyDown(KeyCode.C))
-        //{
-        //    if (!consumables.Contains(item))
-        //    {
-        //        stamina += item.GetComponent<Consumable>().regenerationAmount;
-        //        consumables.Remove(item);
-        //        itemUI.sprite = notItemSprite;
-        //    }
-        //}
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            ConsumeItem(currentItem);
+        }
 
         if (consumables.Count <= 0) { itemUI.sprite = notItemSprite; }
+        else { itemUI.sprite = currentItem.consumableSprite;}
     }
 
     void Interactions()
@@ -178,30 +180,36 @@ public class PlayerInteractions : MonoBehaviour
     public void AddConsumable(Consumable item)
     {
         consumables.Add(item);
+        Debug.Log(item.GetComponent<Consumable>().consumableName + " " + "added to consumables");
         itemUI.sprite = item.GetComponent<Consumable>().consumableSprite;    
+
     }
 
     //Donde colocar la funcion para poder activarla?
     public void ConsumeItem(Consumable item)
     {
-        if (!consumables.Contains(item))
+        if (consumables.Contains(item))
         {
-           stamina += item.GetComponent<Consumable>().regenerationAmount;
-           consumables.Remove(item);
-           itemUI.sprite = notItemSprite;
+            Debug.Log(item.GetComponent<Consumable>().consumableName + " " + "removed from consumables");
+            stamina += item.GetComponent<Consumable>().regenerationAmount;
+            consumables.Remove(item);
+            itemUI.sprite = notItemSprite;
+            itemAmount--;
+            itemAmountText.text = itemAmount.ToString();
+            if (itemAmount != 0 || consumables.Count > 0) { currentItem = consumables[0]; }
+            if (itemAmount <= 0) 
+            { 
+                itemAmount = 0;
+                currentItem = null;                
+            }
         }
-    }
-
-    private IEnumerator DestroyConsumable()
-    { 
-        yield return new WaitForSeconds(1f); 
     }
     #endregion
 
     #region TRIGGER
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("RedPiece") && other.gameObject.GetComponent<PieceData>()) //si se quiere anadir piezas de otro colores usar " || other.CompareTag("PieceColor")" en Piece Color introduce el tag que creaste con Piece+Color 
+        if (other.CompareTag("RedPiece") && other.CompareTag("GreenPiece") || other.CompareTag("PurplePiece") || other.CompareTag("BluePiece") || other.CompareTag("SilverPiece") || other.CompareTag("GoldenPiece") || other.CompareTag("IncolorPiece") && other.gameObject.GetComponent<PieceData>()) //si se quiere anadir piezas de otro colores usar " || other.CompareTag("PieceColor")" en Piece Color introduce el tag que creaste con Piece+Color 
         {
             AddPiece(other.GetComponent<PieceData>());
             redCount++;
@@ -215,7 +223,12 @@ public class PlayerInteractions : MonoBehaviour
             float price = other.GetComponent<Consumable>().consumablePrice;
             if (money >= price)
             {
-                AddConsumable(other.GetComponent<Consumable>());               
+                Consumable thisConsumable = other.GetComponent<Consumable>();
+                AddConsumable(thisConsumable);
+                currentItem = thisConsumable;
+                itemAmount++;
+                itemAmountText.text = itemAmount.ToString();
+                money -= price;
             }
             else
             {
