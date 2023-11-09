@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPausa : MonoBehaviour
 {
     public GameObject pantallaPausa;
+    public GameObject pantallaLost;
+    public GameObject backToMenu;
     private bool menuOn;
-  //  AudioSource audioSource;
+    private bool lostOn;
+    //  AudioSource audioSource;
 
-  //  [SerializeField] private AudioClip Abrir;
- //   [SerializeField] private AudioClip Cerrar;
+    //  [SerializeField] private AudioClip Abrir;
+    //   [SerializeField] private AudioClip Cerrar;
 
     void Update()
     {
@@ -22,7 +26,6 @@ public class MenuPausa : MonoBehaviour
             pantallaPausa.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
-            Time.timeScale = 0f;
      //      audioSource.PlayOneShot(Abrir);
         }
         else
@@ -30,8 +33,36 @@ public class MenuPausa : MonoBehaviour
             pantallaPausa.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
-            Time.timeScale = 1f;
        //     audioSource.PlayOneShot(Cerrar);
         }
+
+
+
+        if (Input.GetKeyDown(KeyCode.Tab))
+        {
+            lostOn = !lostOn;
+        }
+        if (lostOn == true)
+        {
+            pantallaLost.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            //      audioSource.PlayOneShot(Abrir);
+        }
+        else
+        {
+            pantallaLost.SetActive(false);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+            //     audioSource.PlayOneShot(Cerrar);
+        }
+
+
+
+    }
+    public void BackToMenu()
+    {
+        backToMenu.SetActive(true); 
+        SceneManager.LoadScene("0");
     }
 }
