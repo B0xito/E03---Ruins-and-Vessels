@@ -5,8 +5,10 @@ using UnityEngine;
 public class PlayerInteractions : MonoBehaviour
 {
     #region Movement Variables
+    [SerializeField] float rayDistance = 3;
     [SerializeField] float speed = 8;
     [SerializeField] float rotSpeed = 200;
+    
     #endregion
 
     #region Stamina
@@ -15,17 +17,27 @@ public class PlayerInteractions : MonoBehaviour
     float staminaIncrement = 5f;
     #endregion
 
-    private void Update()
+    void Update()
     {
         Movement();
     }
 
+
+
     void Movement()
     {
+        //Movimientos
         float h = Input.GetAxisRaw("Horizontal") * rotSpeed * Time.deltaTime;
         float v = Input.GetAxisRaw("Vertical") * speed * Time.deltaTime;
         transform.Translate(0, 0, v);
-        transform.Rotate(h, 0, 0);
+        transform.Rotate(0, h, 0);
+
+        //El rayito laser piupiu
+        RaycastHit hit;
+        Debug.DrawRay(
+            transform.position,
+            transform.forward * rayDistance,
+            Color.red);
 
         if (Input.GetKey(KeyCode.F))
         {
@@ -36,6 +48,5 @@ public class PlayerInteractions : MonoBehaviour
             staminaMax += staminaIncrement * Time.deltaTime;
         }
     }
-
 
 }
