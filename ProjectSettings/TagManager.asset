@@ -5,15 +5,18 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Minable
+  - Transport
+  - RedPiece
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Minable
   - Water
   - UI
   - 
-  - 
+  - Transport
   - 
   - 
   - 
