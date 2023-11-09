@@ -7,7 +7,6 @@ public class MenuPausa : MonoBehaviour
 {
     public GameObject pantallaPausa;
     public GameObject pantallaLost;
-    public GameObject backToMenu;
     private bool menuOn;
     private bool lostOn;
     //  AudioSource audioSource;
@@ -24,15 +23,15 @@ public class MenuPausa : MonoBehaviour
         if (menuOn == true)
         {
             pantallaPausa.SetActive(true);
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
+        //    Cursor.lockState = CursorLockMode.None;
+        //   Cursor.visible = true;
      //      audioSource.PlayOneShot(Abrir);
         }
         else
         {
             pantallaPausa.SetActive(false);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+          //  Cursor.lockState = CursorLockMode.Locked;
+          //  Cursor.visible = false;
        //     audioSource.PlayOneShot(Cerrar);
         }
 
@@ -40,16 +39,12 @@ public class MenuPausa : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            lostOn = !lostOn;
-        }
-        if (lostOn == true)
-        {
             pantallaLost.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
             //      audioSource.PlayOneShot(Abrir);
         }
-        else
+        else (Input.GetKeyUp(KeyCode.Tab))
         {
             pantallaLost.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
@@ -60,9 +55,5 @@ public class MenuPausa : MonoBehaviour
 
 
     }
-    public void BackToMenu()
-    {
-        backToMenu.SetActive(true); 
-        SceneManager.LoadScene("0");
-    }
+    
 }

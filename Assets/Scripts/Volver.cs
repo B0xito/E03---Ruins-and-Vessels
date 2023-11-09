@@ -5,15 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Volver : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void Mapa1()
     {
-        
+        SceneManager.LoadScene("Mapa");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
