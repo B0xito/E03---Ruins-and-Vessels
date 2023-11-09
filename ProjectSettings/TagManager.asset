@@ -8,6 +8,12 @@ TagManager:
   - Minable
   - Transport
   - RedPiece
+  - BluePiefce
+  - GeenPiece
+  - PurplePiece
+  - IncolorPiece
+  - SilverPiece
+  - GoldenPiece
   layers:
   - Default
   - TransparentFX

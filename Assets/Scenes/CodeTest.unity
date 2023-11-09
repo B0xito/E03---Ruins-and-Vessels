@@ -977,6 +977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: CharacterParent
       objectReference: {fileID: 0}
+    - target: {fileID: 8966024162722967175, guid: 0cc427c94d2bfbf459c0e17637816d60, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
