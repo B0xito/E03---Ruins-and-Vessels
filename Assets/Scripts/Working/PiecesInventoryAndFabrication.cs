@@ -7,9 +7,11 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
     Animator invAnim;
     [SerializeField] PlayerInteractions playerInteractions;
 
+    bool isFabricationOpen;
+
     private void Start()
     {
-        invAnim = GetComponent<Animator>();
+        invAnim = GetComponentInParent<Animator>();
     }
 
     private void Update()
@@ -22,6 +24,12 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
         {
             ClosePreview();
         }
+
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            OpenCloseFabrication();
+        }
+        
     }
 
     void OpenPreview()
@@ -33,5 +41,18 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
     {
         invAnim.SetFloat("status", 0);
     }
+    void OpenCloseFabrication()
+    {
+        isFabricationOpen = !isFabricationOpen;
+        if (isFabricationOpen )
+        {
+            invAnim.SetFloat("statusFab", 1);
+        }
+        else
+        {
+            invAnim.SetFloat("statusFab", 0);
+        }
+    }
+
 
 }

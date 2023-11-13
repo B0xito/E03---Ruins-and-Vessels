@@ -38,31 +38,31 @@ public class PlayerInteractions : MonoBehaviour
     private Coroutine adding;
 
     //Incolor pieces
-    [SerializeField] int incolorCount;
+    public int incolorCount;
     [SerializeField] TMP_Text incolorText;
 
     //Red pieces
-    [SerializeField] int redCount;
+    public int redCount;
     [SerializeField] TMP_Text redCountText;
 
     //Blue pieces
-    [SerializeField] int blueCount;
+    public int blueCount;
     [SerializeField] TMP_Text blueCountText;
 
     //Green pieces
-    [SerializeField] int greenCount;
+    public int greenCount;
     [SerializeField] TMP_Text greenCountText;
 
     //Purple pieces
-    [SerializeField] int purpleCount;
+    public int purpleCount;
     [SerializeField] TMP_Text purpleCountText;
 
     //Silver pieces
-    [SerializeField] int silverCount;
+    public int silverCount;
     [SerializeField] TMP_Text silverCountText;
 
     //Gold pieces
-    [SerializeField] int goldenCount;
+    public int goldenCount;
     [SerializeField] TMP_Text goldenCountText;
 
     #endregion

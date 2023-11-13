@@ -14,6 +14,7 @@ TagManager:
   - PurplePiece
   - SilverPiece
   - GoldenPiece
+  - FabricationSlot
   layers:
   - Default
   - TransparentFX
@@ -21,7 +22,7 @@ TagManager:
   - Minable
   - Water
   - UI
-  - 
+  - FabricationGrabbable
   - Transport
   - 
   - 
