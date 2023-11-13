@@ -28,3 +28,5 @@ public class InventoryMenu : MonoBehaviour
         }
     }
 }
+//Este scrpit por alguna razon no permite que en el menu funcionen sus interacciónes, por lo que supongo que con el inventario
+//y to lo qu eestá haciendo el Marcelo, habra que inutilizar este srcip :3
