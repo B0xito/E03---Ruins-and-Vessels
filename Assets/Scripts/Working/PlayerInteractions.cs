@@ -73,6 +73,7 @@ public class PlayerInteractions : MonoBehaviour
     public Transform player;
     public Vector3 ogScale;
     private Transform wagon;
+    private Animator wagonAnim;
     #endregion
 
     #region Money and Consumables
@@ -285,16 +286,18 @@ public class PlayerInteractions : MonoBehaviour
         {
             Debug.Log("Riding");
             wagon = other.transform;
-            player.SetParent(wagon);
-            player.localPosition = Vector3.zero;
+            wagonAnim = wagon.GetComponent<Animator>();
+            player.SetParent(wagon.transform);
+            //player.localPosition = Vector3.zero;
+            wagonAnim.SetFloat("New Float", 1);
 
-            if (Input.GetKeyDown(KeyCode.Escape))
-            {
-                Debug.Log("Walking");
-                wagon = null;
-                player.SetParent(null);
-                player.transform.localScale = ogScale;
-            }
+            //if (Input.GetKeyDown(KeyCode.Escape))
+            //{
+            //    Debug.Log("Walking");
+            //    wagon = null;
+            //    player.SetParent(null);
+            //    player.transform.localScale = ogScale;
+            //}
         }
     }
 
