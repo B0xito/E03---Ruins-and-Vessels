@@ -83,6 +83,7 @@ public class PlayerInteractions : MonoBehaviour
     [SerializeField] List<Consumable> consumables = new List<Consumable>();
     Consumable currentItem;
     [SerializeField] int itemAmount;
+    public TMP_Text moneyText;
     [SerializeField] TMP_Text itemAmountText;
     [SerializeField] GameObject notMoney;
     [SerializeField] Image itemUI;
@@ -137,7 +138,14 @@ public class PlayerInteractions : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("Mining");
-                spawnItems.Mining();
+                if (CompareTag("Rift"))
+                {
+                    spawnItems.Mining();
+                }
+                else
+                {
+                    Destroy(hit.transform.gameObject);
+                }
                 #region STAMINA
                 stamina -= mineCost;
                 if (stamina < 0) stamina = 0;
@@ -224,6 +232,7 @@ public class PlayerInteractions : MonoBehaviour
                 itemAmount = 0;
                 currentItem = null;                
             }
+            moneyText.text = "$" + itemAmount.ToString();
         }
     }
     #endregion
