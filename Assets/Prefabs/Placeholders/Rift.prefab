@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4799037120376836710}
   m_Layer: 3
   m_Name: Particle System
-  m_TagString: Untagged
+  m_TagString: Rift
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4847,7 +4847,7 @@ GameObject:
   - component: {fileID: 57771732181605427}
   m_Layer: 3
   m_Name: Rift
-  m_TagString: Untagged
+  m_TagString: Rift
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

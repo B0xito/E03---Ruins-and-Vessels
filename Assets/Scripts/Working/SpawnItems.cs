@@ -17,23 +17,20 @@ public class SpawnItems : MonoBehaviour
         riftMR = GetComponent<MeshRenderer>();
     }
 
-    public void Mining()
+    public void Mining(int howMuch)
     {
         riftMR.enabled = false;
-        if (Input.GetKeyDown(KeyCode.F)) 
-        { 
-            StartCoroutine(InvokeSpawnRandom());
-        }
-        else
-        {
-            StopCoroutine(InvokeSpawnRandom());
-        }
+        StartCoroutine(InvokeSpawnRandom(howMuch));
     }
 
-    private IEnumerator InvokeSpawnRandom()
+    private IEnumerator InvokeSpawnRandom(int howMuch)
     {
-        Invoke("SpawnRandom", 10);
-        yield return new WaitForSeconds(.5f);
+
+        for (int i = 0; i < howMuch; i++)
+        {
+            SpawnRandom();
+        }
+        yield return null;
     }
 
     void SpawnRandom()

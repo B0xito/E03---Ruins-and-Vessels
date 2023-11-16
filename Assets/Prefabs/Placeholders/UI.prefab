@@ -5409,12 +5409,12 @@ MonoBehaviour:
   - {fileID: 2518136071496096282}
   - {fileID: 4200163269004847990}
   vessels:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 8797316633407272783, guid: 8397a8b4027e4994fbf0d8522e6580d5, type: 3}
+  - {fileID: 354236783881938180, guid: fe50a8c2d10832f48b59d23518013e71, type: 3}
+  - {fileID: 2037951662269684814, guid: 42ac21ac71ce44846984b00b6d91da37, type: 3}
+  - {fileID: 2848348688982153391, guid: 2674fbae87375ff4680fc2cfac2a1685, type: 3}
+  - {fileID: 1169453324954282214, guid: 201335a9bd8e75c48bd2590c854c6364, type: 3}
+  - {fileID: 5488546378566733673, guid: 394f81331f96cad4e890109df946a812, type: 3}
   playerHands: {fileID: 0}
 --- !u!1 &7489315799380780529
 GameObject:

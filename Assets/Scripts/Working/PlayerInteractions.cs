@@ -138,12 +138,15 @@ public class PlayerInteractions : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("Mining");
-                if (CompareTag("Rift"))
+                if (hit.collider.CompareTag("Rift"))
                 {
-                    spawnItems.Mining();
+                    Debug.Log("GameObject spawned!");
+                    int rand = Random.Range(5, 10);
+                    spawnItems.Mining(rand);
                 }
                 else
                 {
+                    Debug.Log("not rift");
                     Destroy(hit.transform.gameObject);
                 }
                 #region STAMINA
