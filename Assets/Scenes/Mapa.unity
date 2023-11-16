@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -367,7 +367,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -411,13 +411,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (7)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &35171206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 35171205}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &36759875
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -603,19 +608,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -61.089226
+      value: -61.089233
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.2
+      value: 0.20000076
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.87521
+      value: -7.8752136
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -647,13 +652,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (23)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &65490980 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 65490979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &86774006
 GameObject:
   m_ObjectHideFlags: 0
@@ -1723,7 +1733,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1767,20 +1777,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (5)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &233320520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 233320519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &286684842
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1788,11 +1803,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0000030926512
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.3
+      value: 8.300003
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1824,13 +1839,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (30)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &286684843 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 286684842}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &289762232
 GameObject:
   m_ObjectHideFlags: 0
@@ -2153,7 +2173,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2197,13 +2217,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (2)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &352693762 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 352693761}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &379326592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3225,7 +3250,7 @@ GameObject:
   - component: {fileID: 503400519}
   m_Layer: 3
   m_Name: Pared (28)
-  m_TagString: Untagged
+  m_TagString: Minable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4727,7 +4752,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4771,13 +4796,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (33)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &696401682 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 696401681}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -4999,7 +5029,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5043,13 +5073,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (15)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &720295149 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 720295148}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &730261999
 GameObject:
   m_ObjectHideFlags: 0
@@ -5657,7 +5692,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5701,20 +5736,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (10)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &889738625 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 889738624}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &893140708
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5765,6 +5805,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &893140709 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 893140708}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &897857321
 GameObject:
   m_ObjectHideFlags: 0
@@ -5846,11 +5891,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 45.375797
+      value: 45.375793
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5890,13 +5935,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (12)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &905138457 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 905138456}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &910732400
 GameObject:
   m_ObjectHideFlags: 0
@@ -6360,7 +6410,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6404,13 +6454,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (3)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &976351383 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 976351382}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1003268548
 GameObject:
   m_ObjectHideFlags: 0
@@ -6571,19 +6626,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.0119014
+      value: 4.011902
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17
+      value: 0.17000008
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 24.145863
+      value: 24.145859
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6615,13 +6670,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (21)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1032267146 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1032267145}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1036951076
 GameObject:
   m_ObjectHideFlags: 0
@@ -6761,7 +6821,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6773,7 +6833,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 35.59071
+      value: 35.5907
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -6805,13 +6865,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (28)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1049699511 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1049699510}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1065268579
 GameObject:
   m_ObjectHideFlags: 0
@@ -7267,19 +7332,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 37.032413
+      value: 37.03241
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18
+      value: 0.1800003
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.944429
+      value: 14.9444275
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7311,13 +7376,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (19)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1102258421 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1102258420}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1107547315
 GameObject:
   m_ObjectHideFlags: 0
@@ -7866,6 +7936,73 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143738051}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1152083005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1152083006}
+  m_Layer: 0
+  m_Name: Rifts
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1152083006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152083005}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1268128181}
+  - {fileID: 1452226769}
+  - {fileID: 1357021667}
+  - {fileID: 893140709}
+  - {fileID: 1898004307}
+  - {fileID: 1768336127}
+  - {fileID: 1963035551}
+  - {fileID: 1912798937}
+  - {fileID: 233320520}
+  - {fileID: 696401682}
+  - {fileID: 720295149}
+  - {fileID: 1781973123}
+  - {fileID: 1593170944}
+  - {fileID: 2020344211}
+  - {fileID: 1541860537}
+  - {fileID: 905138457}
+  - {fileID: 352693762}
+  - {fileID: 2108827687}
+  - {fileID: 1630705673}
+  - {fileID: 1859504555}
+  - {fileID: 1338283261}
+  - {fileID: 1503911663}
+  - {fileID: 889738625}
+  - {fileID: 65490980}
+  - {fileID: 976351383}
+  - {fileID: 1967872532}
+  - {fileID: 286684843}
+  - {fileID: 1786385045}
+  - {fileID: 1102258421}
+  - {fileID: 35171206}
+  - {fileID: 1049699511}
+  - {fileID: 2017967399}
+  - {fileID: 1259712359}
+  - {fileID: 1384026478}
+  - {fileID: 1763153227}
+  - {fileID: 1032267146}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1164186386
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,7 +8560,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8467,13 +8604,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (34)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1259712359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1259712358}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1267130084
 GameObject:
   m_ObjectHideFlags: 0
@@ -8585,7 +8727,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8593,11 +8735,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.55
+      value: 0.54999924
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.559598
+      value: 11.559601
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8629,13 +8771,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (27)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1268128181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1268128180}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1269462807
 GameObject:
   m_ObjectHideFlags: 0
@@ -9094,7 +9241,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9102,11 +9249,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.12
+      value: 0.12000084
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 33.64643
+      value: 33.646423
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9138,20 +9285,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (25)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1338283261 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1338283260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1357021666
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9195,13 +9347,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (13)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1357021667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1357021666}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1368304087
 GameObject:
   m_ObjectHideFlags: 0
@@ -9418,7 +9575,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9426,11 +9583,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.41
+      value: 0.40999985
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 36.31503
+      value: 36.315033
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9462,13 +9619,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (29)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1384026478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1384026477}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1425913555
 GameObject:
   m_ObjectHideFlags: 0
@@ -9580,7 +9742,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9588,11 +9750,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.23
+      value: 0.22999954
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.2541
+      value: 49.25409
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -9624,20 +9786,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (22)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1452226769 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1452226768}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1503911662
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9681,13 +9848,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (1)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1503911663 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1503911662}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1510319701
 GameObject:
   m_ObjectHideFlags: 0
@@ -9904,7 +10076,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9912,7 +10084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.11000061
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -9948,13 +10120,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (32)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1541860537 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1541860536}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1589320286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c6fad5b1fcf1f374c8464954767524c1, type: 3}
@@ -10014,11 +10191,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 29.563038
+      value: 29.563034
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -10058,13 +10235,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (8)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1593170944 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1593170943}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1613998189
 GameObject:
   m_ObjectHideFlags: 0
@@ -10176,7 +10358,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10184,7 +10366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.19
+      value: 0.19000053
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -10220,13 +10402,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (31)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1630705673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1630705672}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1644730409
 GameObject:
   m_ObjectHideFlags: 0
@@ -10970,7 +11157,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10978,11 +11165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: 1.2000008
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 36.980545
+      value: 36.98056
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11014,13 +11201,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (26)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1763153227 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1763153226}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1767141186
 GameObject:
   m_ObjectHideFlags: 0
@@ -11206,11 +11398,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.8
+      value: -2.800003
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11250,13 +11442,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (11)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1768336127 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1768336126}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1772054092
 GameObject:
   m_ObjectHideFlags: 0
@@ -11368,11 +11565,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.97639
+      value: 50.976395
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -11380,7 +11577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -76.48289
+      value: -76.48288
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11412,20 +11609,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (14)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1781973123 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1781973122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1786385044
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11433,11 +11635,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 0.6499996
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.73738
+      value: -5.737381
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -11469,13 +11671,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (17)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1786385045 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1786385044}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1793960689
 GameObject:
   m_ObjectHideFlags: 0
@@ -12034,15 +12241,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 47.414852
+      value: 47.414856
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.11
+      value: 0.11000061
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12078,13 +12285,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (18)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1859504555 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1859504554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1876839882
 GameObject:
   m_ObjectHideFlags: 0
@@ -12159,11 +12371,11 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.666317
+      value: 1.6663208
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12171,7 +12383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -91.36756
+      value: -91.36755
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -12203,13 +12415,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (9)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1898004307 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1898004306}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1906846307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12458,7 +12675,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12502,13 +12719,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (16)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1912798937 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1912798936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1914720313
 GameObject:
   m_ObjectHideFlags: 0
@@ -12994,7 +13216,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13038,24 +13260,29 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (35)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1963035551 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1963035550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1967872531
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 18.066303
+      value: 18.0663
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13095,13 +13322,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (6)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &1967872532 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 1967872531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1979590610
 GameObject:
   m_ObjectHideFlags: 0
@@ -13488,19 +13720,19 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.78219
+      value: -41.782196
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.7
+      value: 0.70000076
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -21.827127
+      value: -21.827133
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13532,20 +13764,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (24)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &2017967399 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 2017967398}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2020344210
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13553,11 +13790,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.65
+      value: 0.6499996
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.91995
+      value: 42.919952
       objectReference: {fileID: 0}
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalRotation.w
@@ -13589,13 +13826,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (20)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &2020344211 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 2020344210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2044457490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13976,7 +14218,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1152083006}
     m_Modifications:
     - target: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14020,13 +14262,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7341495660322156151, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
       propertyPath: m_Name
-      value: Rift (4)
+      value: Rift
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+--- !u!4 &2108827687 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
+  m_PrefabInstance: {fileID: 2108827686}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2118616623
 GameObject:
   m_ObjectHideFlags: 0
@@ -16345,39 +16592,4 @@ SceneRoots:
   - {fileID: 961106045}
   - {fileID: 886368350}
   - {fileID: 6151411886433363701}
-  - {fileID: 893140708}
-  - {fileID: 1503911662}
-  - {fileID: 352693761}
-  - {fileID: 976351382}
-  - {fileID: 2108827686}
-  - {fileID: 233320519}
-  - {fileID: 1967872531}
-  - {fileID: 35171205}
-  - {fileID: 1593170943}
-  - {fileID: 1898004306}
-  - {fileID: 889738624}
-  - {fileID: 1768336126}
-  - {fileID: 905138456}
-  - {fileID: 1357021666}
-  - {fileID: 1781973122}
-  - {fileID: 720295148}
-  - {fileID: 1912798936}
-  - {fileID: 1786385044}
-  - {fileID: 1859504554}
-  - {fileID: 1102258420}
-  - {fileID: 2020344210}
-  - {fileID: 1032267145}
-  - {fileID: 1452226768}
-  - {fileID: 65490979}
-  - {fileID: 2017967398}
-  - {fileID: 1338283260}
-  - {fileID: 1763153226}
-  - {fileID: 1268128180}
-  - {fileID: 1049699510}
-  - {fileID: 1384026477}
-  - {fileID: 286684842}
-  - {fileID: 1630705672}
-  - {fileID: 1541860536}
-  - {fileID: 696401681}
-  - {fileID: 1259712358}
-  - {fileID: 1963035550}
+  - {fileID: 1152083006}
