@@ -29,6 +29,7 @@ public class PlayerInteractions : MonoBehaviour
 
     #region Mine
     public LayerMask minableMask;
+    [SerializeField] SpawnItems spawnItems;
     #endregion
 
     #region Pieces
@@ -130,12 +131,13 @@ public class PlayerInteractions : MonoBehaviour
         //con el layer minable, si es asi entra el if
         if (Physics.Raycast(transform.position, transform.forward, out hit, rayDistance, minableMask))
         {
+            spawnItems = hit.transform.gameObject.GetComponent<SpawnItems>();
+
             //Gasta estamina si se pulsa F
             if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("Mining");
-                Destroy(hit.transform.gameObject);
-
+                spawnItems.Mining();
                 #region STAMINA
                 stamina -= mineCost;
                 if (stamina < 0) stamina = 0;
@@ -147,27 +149,6 @@ public class PlayerInteractions : MonoBehaviour
             }
         }
         #endregion
-
-        //#region TRANSPORT
-        //if (Physics.Raycast(transform.position, transform.forward, out hit, rayDistance, transportMask))
-        //{
-        //    if (Input.GetKeyDown(KeyCode.F))
-        //    {
-        //        Debug.Log("Riding");
-        //        wagon = hit.transform;
-        //        player.SetParent(wagon);
-        //        player.localPosition = Vector3.zero;
-
-        //        if (Input.GetKeyDown(KeyCode.Escape))
-        //        {
-        //            Debug.Log("Walking");
-        //            wagon = null;
-        //            player.SetParent(null);
-        //            player.transform.localScale = Vector3.one;
-        //        }
-        //    }
-        //}
-        //#endregion
 
         #endregion
     }

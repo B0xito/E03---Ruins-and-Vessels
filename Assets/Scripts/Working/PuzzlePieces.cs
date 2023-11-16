@@ -162,38 +162,38 @@ public class PuzzlePieces : MonoBehaviour, IPointerClickHandler
         transform.position = Input.mousePosition;
     } 
 
-    void AssingPiece() 
-    {
-        #region Pieces
-        if (gameObject.CompareTag("IncolorPiece"))
-        {
-            playerInteractions.incolorCount--;
+    //void AssingPiece() 
+    //{
+    //    #region Pieces
+    //    if (gameObject.CompareTag("IncolorPiece"))
+    //    {
+    //        playerInteractions.incolorCount--;
 
-        }
-        if (gameObject.CompareTag("RedPiece"))
-        {
-            playerInteractions.redCount--;
-        }
-        if (gameObject.CompareTag("BluePiece"))
-        {
-            playerInteractions.blueCount--;
-        }
-        if (gameObject.CompareTag("GreenPiece"))
-        {
-            playerInteractions.greenCount--;
-        }
-        if (gameObject.CompareTag("PurplePiece"))
-        {
-            playerInteractions.purpleCount--;
-        }
-        if (gameObject.CompareTag("SilverPiece"))
-        {
-            playerInteractions.silverCount--;
-        }
-        if (gameObject.CompareTag("GoldenPiece"))
-        {
-            playerInteractions.goldenCount--;
-        }
-        #endregion
-    }
+    //    }
+    //    if (gameObject.CompareTag("RedPiece"))
+    //    {
+    //        playerInteractions.redCount--;
+    //    }
+    //    if (gameObject.CompareTag("BluePiece"))
+    //    {
+    //        playerInteractions.blueCount--;
+    //    }
+    //    if (gameObject.CompareTag("GreenPiece"))
+    //    {
+    //        playerInteractions.greenCount--;
+    //    }
+    //    if (gameObject.CompareTag("PurplePiece"))
+    //    {
+    //        playerInteractions.purpleCount--;
+    //    }
+    //    if (gameObject.CompareTag("SilverPiece"))
+    //    {
+    //        playerInteractions.silverCount--;
+    //    }
+    //    if (gameObject.CompareTag("GoldenPiece"))
+    //    {
+    //        playerInteractions.goldenCount--;
+    //    }
+    //    #endregion
+    //}
 }
