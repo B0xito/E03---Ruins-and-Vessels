@@ -29,6 +29,9 @@ public class PuzzlePieces : MonoBehaviour, IPointerClickHandler
     public Transform[] slots = new Transform[18];
     Image slotImage;
 
+    public GameObject[] vessels = new GameObject[6];
+    public Transform playerHands;
+
     public void OnPointerClick(PointerEventData eventData)
     {
         if (isPickedUp)
@@ -138,7 +141,7 @@ public class PuzzlePieces : MonoBehaviour, IPointerClickHandler
 
                     slot.GetComponent<Image>().sprite = pickedPiece.sprite;
                     slot.GetComponent<Image>().color = pickedPiece.color;
-                    slot.GetComponent<PuzzlePieces>().thisPiece = pickedPiece.GetComponent<PuzzlePieces>().thisPiece; ;
+                    slot.GetComponent<PuzzlePieces>().thisPiece = pickedPiece.GetComponent<PuzzlePieces>().thisPiece; 
                 }
             }
 
@@ -147,7 +150,6 @@ public class PuzzlePieces : MonoBehaviour, IPointerClickHandler
         }     
     }
 
-    
 
     private void FixedUpdate()
     {
@@ -162,38 +164,8 @@ public class PuzzlePieces : MonoBehaviour, IPointerClickHandler
         transform.position = Input.mousePosition;
     } 
 
-    //void AssingPiece() 
-    //{
-    //    #region Pieces
-    //    if (gameObject.CompareTag("IncolorPiece"))
-    //    {
-    //        playerInteractions.incolorCount--;
-
-    //    }
-    //    if (gameObject.CompareTag("RedPiece"))
-    //    {
-    //        playerInteractions.redCount--;
-    //    }
-    //    if (gameObject.CompareTag("BluePiece"))
-    //    {
-    //        playerInteractions.blueCount--;
-    //    }
-    //    if (gameObject.CompareTag("GreenPiece"))
-    //    {
-    //        playerInteractions.greenCount--;
-    //    }
-    //    if (gameObject.CompareTag("PurplePiece"))
-    //    {
-    //        playerInteractions.purpleCount--;
-    //    }
-    //    if (gameObject.CompareTag("SilverPiece"))
-    //    {
-    //        playerInteractions.silverCount--;
-    //    }
-    //    if (gameObject.CompareTag("GoldenPiece"))
-    //    {
-    //        playerInteractions.goldenCount--;
-    //    }
-    //    #endregion
-    //}
+    public void Fabricate()
+    {
+        Instantiate(vessels[0], playerHands);
+    }
 }
