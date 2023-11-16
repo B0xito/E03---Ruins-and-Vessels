@@ -24,7 +24,7 @@ public class MenuPausa : MonoBehaviour
         {
             pantallaPausa.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
-           Cursor.visible = true;
+            Cursor.visible = true;
      //      audioSource.PlayOneShot(Abrir);
         }
         else

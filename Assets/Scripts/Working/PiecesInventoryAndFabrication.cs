@@ -6,6 +6,7 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
 {
     Animator invAnim;
     [SerializeField] PlayerInteractions playerInteractions;
+    bool cursorVis = false;
 
     bool isFabricationOpen;
 
@@ -27,9 +28,19 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.E))
         {
+            cursorVis = !cursorVis;
+            if (cursorVis) 
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
             OpenCloseFabrication();
         }
-        
     }
 
     void OpenPreview()
@@ -46,10 +57,11 @@ public class PiecesInventoryAndFabrication : MonoBehaviour
         isFabricationOpen = !isFabricationOpen;
         if (isFabricationOpen )
         {
+            
             invAnim.SetFloat("statusFab", 1);
         }
         else
-        {
+        {         
             invAnim.SetFloat("statusFab", 0);
         }
     }

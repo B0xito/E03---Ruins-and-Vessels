@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1456,14 +1456,77 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 180133754729425491, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.404
+      objectReference: {fileID: 0}
+    - target: {fileID: 180133754729425491, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.404
+      objectReference: {fileID: 0}
+    - target: {fileID: 180133754729425491, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -138
+      objectReference: {fileID: 0}
+    - target: {fileID: 180133754729425491, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 166
+      objectReference: {fileID: 0}
+    - target: {fileID: 428902598326464389, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 805960244121461804, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 1239004916321095254, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 1285226015453548047, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
     - target: {fileID: 1371324217061394863, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: m_Name
       value: UI
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 2189981622063651544, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 4.9938965
       objectReference: {fileID: 0}
+=======
+    - target: {fileID: 2438897795168566229, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.80740476
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438897795168566229, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87699217
+      objectReference: {fileID: 0}
+    - target: {fileID: 2438897795168566229, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489941833580054835, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 2924548331951278224, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 3162900105122618148, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 3291402086267884500, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+>>>>>>> Stashed changes
     - target: {fileID: 3627076400787469214, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: m_Name
       value: Fabrication Button Text
@@ -1508,10 +1571,146 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4333293841646461683, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 4462363088669692430, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 5011356562713381210, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 5239023763177070061, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.80740476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5239023763177070061, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87699217
+      objectReference: {fileID: 0}
+    - target: {fileID: 5239023763177070061, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 5313054343338326608, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 6003486548864728366, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
     - target: {fileID: 6169678204011767331, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: playerInteractions
       value: 
       objectReference: {fileID: 434247598}
+    - target: {fileID: 6335106488464998604, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 7151550361655086029, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 7277000942743925965, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.b
+      value: 0.80740476
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277000942743925965, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.g
+      value: 0.87699217
+      objectReference: {fileID: 0}
+    - target: {fileID: 7277000942743925965, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7349061022094929676, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 7489315799380780529, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_Name
+      value: Fabrication Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705731071654826044, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.48460534
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.7607527
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.48460534
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.7607527
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -21
+      objectReference: {fileID: 0}
+    - target: {fileID: 7754708988890986774, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 163
+      objectReference: {fileID: 0}
+    - target: {fileID: 7848335199248170164, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 8443565423485263364, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 8461557499898058151, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5722268
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.7607527
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5722268
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.7607527
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 8723090034979596070, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 164
+      objectReference: {fileID: 0}
+    - target: {fileID: 8990673505564852435, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
+    - target: {fileID: 9220304260096602648, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: playerHands
+      value: 
+      objectReference: {fileID: 702319613}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4909,6 +5108,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5034365087148291768, guid: c81945ca355b8d6449f8a5aa89381b85, type: 3}
   m_PrefabInstance: {fileID: 696401681}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &702319613 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 972555141452116051, guid: 330bf652a2842b64ab7f68e43f28fcae, type: 3}
+  m_PrefabInstance: {fileID: 474090250}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
@@ -14906,11 +15110,14 @@ SceneRoots:
   - {fileID: 886368350}
   - {fileID: 1152083006}
   - {fileID: 630888222}
-  - {fileID: 201052090}
   - {fileID: 474090250}
   - {fileID: 3035267707114830263}
   - {fileID: 7671910173110433621}
+<<<<<<< Updated upstream
   - {fileID: 788334100}
   - {fileID: 1934970279}
   - {fileID: 1297460934}
   - {fileID: 1623376373}
+=======
+  - {fileID: 201052090}
+>>>>>>> Stashed changes

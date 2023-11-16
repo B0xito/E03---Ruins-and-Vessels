@@ -15,6 +15,12 @@ TagManager:
   - GoldenPiece
   - FabricationSlot
   - Rift
+  - RedVessel
+  - BlueVessel
+  - GreenVessel
+  - PurpleVessel
+  - SilverVessel
+  - GoldenVessel
   layers:
   - Default
   - TransparentFX
