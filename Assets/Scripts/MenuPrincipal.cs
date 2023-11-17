@@ -8,7 +8,7 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Mapa1()
     {
-        SceneManager.LoadScene("Mapa");
+        SceneManager.LoadScene("Tienda");
     }
 
     public void CargarNivel(string nombreNivel)
