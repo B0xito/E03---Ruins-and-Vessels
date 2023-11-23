@@ -25324,6 +25324,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 717810945}
     m_Modifications:
+    - target: {fileID: 154067104129901141, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_fontSize
+      value: 36.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 154067104129901141, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+    - target: {fileID: 154067104129901141, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+    - target: {fileID: 154067104129901141, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 428902598326464389, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: playerHands
       value: 
@@ -25480,6 +25496,18 @@ PrefabInstance:
       propertyPath: vessels.Array.data[5]
       value: 
       objectReference: {fileID: 5488546378566733673, guid: 394f81331f96cad4e890109df946a812, type: 3}
+    - target: {fileID: 3126075429043444376, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+    - target: {fileID: 3126075429043444376, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+    - target: {fileID: 3126075429043444376, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3162900105122618148, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: playerHands
       value: 
@@ -25579,6 +25607,26 @@ PrefabInstance:
     - target: {fileID: 3730169013866063595, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789083123620256007, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.7458884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789083123620256007, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.7458884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789083123620256007, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.7458884
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789083123620256007, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000007947286
+      objectReference: {fileID: 0}
+    - target: {fileID: 3789083123620256007, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1328.3334
       objectReference: {fileID: 0}
     - target: {fileID: 4333293841646461683, guid: de02e77fe191f0647a5d7cd4e0f28f1d, type: 3}
       propertyPath: playerHands

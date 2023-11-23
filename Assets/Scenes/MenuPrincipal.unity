@@ -181,7 +181,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -358,8 +358,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Start the Game
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1012,8 +1012,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Special thanks:\nBenjam\xEDn Blas\nAndy Pel\xE1ez"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1145,7 +1145,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -1352,8 +1352,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ruins & Vessels
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1712,7 +1712,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -1791,7 +1791,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -1939,8 +1939,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2118,8 +2118,8 @@ MonoBehaviour:
   m_text: "Developers:\nArturo Soto\nBasti\xE1n Flores\nMarcelo Herrera\nMartina
     Olavarrieta"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2210,7 +2210,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &963413185
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2335,8 +2335,8 @@ MonoBehaviour:
   m_text: "Developers:\nArturo Soto\nBasti\xE1n Flores\nMarcelo Herrera\nMartina
     Olavarrieta"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2490,7 +2490,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -2570,8 +2570,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2703,7 +2703,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -2783,8 +2783,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Options
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3237,7 +3237,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -3567,8 +3567,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Special thanks:\nBenjam\xEDn Blas\nAndy Pel\xE1ez"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -3700,7 +3700,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -3948,7 +3948,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -4169,7 +4169,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: 249caeab4dd2d4c4591a68daf34c7305, type: 3}
     m_FontSize: 45
     m_FontStyle: 3
     m_BestFit: 0
@@ -4510,8 +4510,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Ruins & Vessels
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4741,8 +4741,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Credits
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
+  m_sharedMaterial: {fileID: -793861122354302193, guid: 010fb72294c29894b95f39df8fd9dbd9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
